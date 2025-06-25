@@ -21,8 +21,8 @@
   },
   {
     "key": "headerDashboard",
-    "value": ".page-header h1",
-    "type": "css"
+    "value": "//div[@class='page-header']/h1",
+    "type": "xpath"
   },
   {
     "key": "alertDangerInLoginPage",
