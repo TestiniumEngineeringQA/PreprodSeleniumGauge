@@ -26,8 +26,8 @@
   },
   {
     "key": "alertDangerInLoginPage",
-    "value": "ui-messages-error-summary",
-    "type": "class"
+    "value": "//*[@id=\"messages\"]/div/ul/li/span",
+    "type": "xpath"
   },
   {
     "key": "forgotPasswordInLoginPage",
