@@ -84,6 +84,13 @@ public class Driver {
     @BeforeStep
     public void beforeStep(ExecutionContext executionContext) {
 
+
+        //logger.info("═════════  " + executionContext.getCurrentStep().getDynamicText() + "  ═════════");
+    }
+
+    @AfterStep
+    public void afterStep(ExecutionContext executionContext) throws IOException {
+
         // createDriver() metodu sonunda
         driver.get(baseUrl);
 
@@ -91,16 +98,9 @@ public class Driver {
         String currentUrl = driver.getCurrentUrl();
         if (currentUrl.startsWith("http://")) {
             String httpsUrl = currentUrl.replace("http://", "https://");
-            logger.warn("HTTP'ye yönlendirildi. HTTPS ile tekrar yükleniyor: " + httpsUrl);
+            logger.info("HTTP'ye yönlendirildi. HTTPS ile tekrar yükleniyor: " + httpsUrl);
             driver.get(httpsUrl);
         }
-
-
-        //logger.info("═════════  " + executionContext.getCurrentStep().getDynamicText() + "  ═════════");
-    }
-
-    @AfterStep
-    public void afterStep(ExecutionContext executionContext) throws IOException {
 
         if (executionContext.getCurrentStep().getIsFailing()) {
 
