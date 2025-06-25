@@ -90,8 +90,6 @@ public class Driver {
 
     @AfterStep
     public void afterStep(ExecutionContext executionContext) throws IOException {
-        System.out.println(driver.getCurrentUrl());
-        System.out.println(driver.getPageSource());
         if (executionContext.getCurrentStep().getIsFailing()) {
 
             logger.error(executionContext.getCurrentSpecification().getFileName());
