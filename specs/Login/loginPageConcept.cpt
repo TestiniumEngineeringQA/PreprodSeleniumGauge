@@ -20,7 +20,7 @@
 
 # Login başarısız uyarısında <errorMessage> hata mesajı alınır.
 * "5" saniye bekle
-* Şu anki url "https://dev.testinium.com/login.html" ile aynı mı
+* Şu anki url "http://dev.testinium.com/login.html" ile aynı mı
 * "alertDangerInLoginPage" elementinin görünür olması kontrol edilir
 * "alertDangerInLoginPage" elementinin text değeri <errorMessage> değerine eşit mi
  // Alert elementini locate edemiyor sonra detaylı bakılacak

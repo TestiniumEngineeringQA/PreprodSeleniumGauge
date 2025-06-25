@@ -26,7 +26,7 @@
   },
   {
     "key": "alertDangerInLoginPage",
-    "value": "//*[text()='Username or password incorrect!']",
+    "value": "//span[contains(@class, 'ui-messages-error-summary') and contains(text(), 'Username or password')]",
     "type": "xpath"
   },
   {

@@ -90,18 +90,6 @@ public class Driver {
 
     @AfterStep
     public void afterStep(ExecutionContext executionContext) throws IOException {
-
-        // createDriver() metodu sonunda
-        driver.get(baseUrl);
-
-        // Eğer yanlışlıkla http'ye yönlendirdiyse, zorla https'e çevir
-        String currentUrl = driver.getCurrentUrl();
-        if (currentUrl.startsWith("http://")) {
-            String httpsUrl = currentUrl.replace("http://", "https://");
-            logger.info("HTTP'ye yönlendirildi. HTTPS ile tekrar yükleniyor: " + httpsUrl);
-            driver.get(httpsUrl);
-        }
-
         if (executionContext.getCurrentStep().getIsFailing()) {
 
             logger.error(executionContext.getCurrentSpecification().getFileName());
