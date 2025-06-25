@@ -9,8 +9,11 @@
 
 # <email> ve <password> bilgileriyle gecerli login yap
 * <email> ve <password> bilgileriyle giris yap
-* Şu anki url "http://dev.testinium.com/members/dashboard.html" içeriyor mu
-* "15" saniye bekle
+Şu anki url "http://dev.testinium.com/members/dashboard.html" içeriyor mu
+* "10" saniye bekle
+* "https://dev.testinium.com/members/dashboard.html" adresine git
+* "10" saniye bekle
+* Şu anki url "https://dev.testinium.com/members/dashboard.html" içeriyor mu
 * "headerDashboard" elementinin görünür olması kontrol edilir
 * "headerDashboard" elementinin text değeri "Dashboard" değerini içeriyor mu
 
