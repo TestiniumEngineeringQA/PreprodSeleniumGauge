@@ -26,7 +26,7 @@
   },
   {
     "key": "alertDangerInLoginPage",
-    "value": "//*[@id=\"messages\"]/div/ul/li/span",
+    "value": "//*[text()='Username or password incorrect!']",
     "type": "xpath"
   },
   {
