@@ -19,6 +19,7 @@
 * "headerDashboard" elementinin text değeri "Dashboard" değerini içeriyor mu
 
 # Login başarısız uyarısında <errorMessage> hata mesajı alınır.
+* "5" saniye bekle
 * "alertDangerInLoginPage" elementinin görünür olması kontrol edilir
 * "alertDangerInLoginPage" elementinin text değeri <errorMessage> değerine eşit mi
 
