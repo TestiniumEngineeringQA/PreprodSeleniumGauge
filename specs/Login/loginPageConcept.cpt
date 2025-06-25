@@ -1,4 +1,5 @@
 # <email> ve <password> bilgileriyle giris yap
+* Şu anki url "https://dev.testinium.com/login.html" ile aynı mı
 * "userNameInLoginPage" elementinin görünür olması kontrol edilir
 * "passwordInLoginPage" elementinin görünür olması kontrol edilir
 * "userNameInLoginPage" elementine <email> değerini yaz
@@ -18,7 +19,6 @@
 * "headerDashboard" elementinin text değeri "Dashboard" değerini içeriyor mu
 
 # Login başarısız uyarısında <errorMessage> hata mesajı alınır.
-* "5" saniye bekle
 * "alertDangerInLoginPage" elementinin görünür olması kontrol edilir
 * "alertDangerInLoginPage" elementinin text değeri <errorMessage> değerine eşit mi
 
