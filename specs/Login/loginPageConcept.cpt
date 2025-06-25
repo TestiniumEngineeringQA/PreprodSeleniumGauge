@@ -20,8 +20,10 @@
 
 # Login başarısız uyarısında <errorMessage> hata mesajı alınır.
 * "5" saniye bekle
-* "alertDangerInLoginPage" elementinin görünür olması kontrol edilir
-* "alertDangerInLoginPage" elementinin text değeri <errorMessage> değerine eşit mi
+* Şu anki url "https://dev.testinium.com/login.html" ile aynı mı
+ "alertDangerInLoginPage" elementinin görünür olması kontrol edilir
+ "alertDangerInLoginPage" elementinin text değeri <errorMessage> değerine eşit mi
+ // Alert elementini locate edemiyor sonra detaylı bakılacak
 
 # Forgot my password butonuna tıkla
 * "forgotPasswordInLoginPage" elementinin görünür olması kontrol edilir
