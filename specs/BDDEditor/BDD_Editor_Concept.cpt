@@ -69,7 +69,8 @@
 * "CreateConceptFileButton" elementinin tıklanabilir olması kontrol edilir
 * "CreateConceptFileButton" elementine tıkla
 * <ProjectName> degerini "ConceptProjectName" keyinde tut
-//* "CreateConceptProjectNameText" elementine <ProjectName> keyini yolla
+* "https://dev.testinium.com/members/featureFileForm.html" adresine git
+* "3" saniye bekle
 * "CreateConceptProjectNameText" elementine <ProjectName> değerini yaz
 ..* "CreateConceptProjectNameText" elementinin text değeri <ProjectName> değerini içeriyor mu
 ..* "CreateConceptProjectNameText" elementinin text değeri <ProjectName> değerine eşit mi
