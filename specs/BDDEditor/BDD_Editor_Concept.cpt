@@ -60,7 +60,8 @@
 * "CreateSpecFileButton" elementinin tıklanabilir olması kontrol edilir
 * "CreateSpecFileButton" elementine tıkla
 * <SpecProjectName> degerini "SpecProjectName" keyinde tut
-* Şu anki url "https://dev.testinium.com/members/featureFileForm.html" ile aynı mı
+* "https://dev.testinium.com/members/featureFileForm.html" adresine git
+* "3" saniye bekle
 * "CreateSpecProjectNameText" elementine <SpecProjectName> değerini yaz
 .. CreateSpecFileNameText json ekle
 
