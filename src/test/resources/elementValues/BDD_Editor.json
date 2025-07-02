@@ -6,8 +6,18 @@
   },
   {
     "key": "BDD_Editor_Dropdown",
-    "value": "div[class='col-md-4']>select",
-    "type": "css"
+    "value": "project_input",
+    "type": "id"
+  },
+  {
+  "key": "BDD_Editor_Dropdown_Button",
+  "value": "//*[@id=\"project\"]/button",
+  "type": "xpath"
+  },
+  {
+    "key": "BDD_Editor_Dropdown_First_Item",
+    "value": "(//li[@role='option'])[1]",
+    "type": "xpath"
   },
   {
     "key": "EditSpec",
@@ -166,8 +176,8 @@
   },
   {
     "key": "RastgeleSecim",
-    "value": "select[id='project']>option",
-    "type": "css"
+    "value": "//*[@id=\"project_panel\"]/ul",
+    "type": "xpath"
   },
   {
     "key": "YanlısProje",

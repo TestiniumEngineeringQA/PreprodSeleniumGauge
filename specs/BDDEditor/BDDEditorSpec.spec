@@ -1,14 +1,12 @@
 Specification Heading
 =====================
 
-
-* "testinium" ve "Qwe123+" bilgileriyle gecerli login yap
+* "testinium" ve "testinium" bilgileriyle gecerli login yap
 * BDD Editor Sayfasına Gidilmesi
 
 Test1-1-BDD Editor Sayfası Kontrolleri
 --------------------------------------
 Tags: BDDEditorController
-
 * BDD Editor Sayfası Kontrolleri Yapılır
 
 Test 1-2-BDD Editor Sayfasına Rastgele Proje Seçimi

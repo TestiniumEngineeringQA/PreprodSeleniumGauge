@@ -4,9 +4,9 @@
 * Şu anki url "https://dev.testinium.com/members/featureFileList.html" ile aynı mı
 * "TestFileText" elementinin text değeri "File List" değerine eşit mi
 * "BDD_Editor_Dropdown" elementinin görünür olması kontrol edilir
-* "BDD_Editor_Dropdown" elementine "AmazonSelenium3" değerini yaz
- "BDD_Editor_Dropdown" dropdown elementinin "5" indexine tıkla
-* "BDD_Editor_Dropdown" elementine tıkla
+* "BDD_Editor_Dropdown" elementine "deneme" değerini yaz
+* "BDD_Editor_Dropdown_First_Item" elementine tıkla
+ "BDD_Editor_Dropdown" elementine tıkla
 * "CreateSpecFileButton" elementinin görünür olması kontrol edilir
 * "CreateSpecFileButton" elementinin tıklanabilir olması kontrol edilir
 * "CreateSpecFileButton" elementinin text değeri "Create Spec File" değerine eşit mi
@@ -32,9 +32,15 @@
 * "SearchFileName" elementinin text değeri "Search file name :" değerine eşit mi
 
 # BDD Editor Rastgele Proje Seçimi
+* "BDD_Editor_Dropdown_Button" elementinin görünür olması kontrol edilir
+* "BDD_Editor_Dropdown_Button" elementine tıkla
 * "RastgeleSecim" menusünden random seçim yap
+
 # Yanlış Proje Seçimi ve Hata Mesajı alma
-* "YanlısProje" elementine tıkla
+* "BDD_Editor_Dropdown_Button" elementine tıkla
+* "BDD_Editor_Dropdown" elementinin görünür olması kontrol edilir
+* "BDD_Editor_Dropdown" elementine "deneme" değerini yaz
+* "BDD_Editor_Dropdown_First_Item" elementine tıkla
 * "HataMesajı" elementinin text değeri "\"An error occurred due to git server connection.\"" değerine eşit mi
 
 # Searchable olduğu kontrol edilir

@@ -2,7 +2,7 @@ Companies Page Systematic
 =====================
 By sena
 
-* "testinium" ve "Qwe123+" bilgileriyle gecerli login yap
+* "testinium" ve "testinium" bilgileriyle gecerli login yap
 * Companies tabına tıkla ve companies sayfasında olduğunu kontrol et
 
 Test-1-1: Companies sayfasından Dashboard sayfasına geçiş
@@ -10,7 +10,7 @@ Test-1-1: Companies sayfasından Dashboard sayfasına geçiş
 Tags:CompaniesSayfasindanDashboardSayfasinaGecis
 
 * Dashboard tabına tıkla for companies
-* Şu anki url "https://dev.testinium.com/members" ile aynı mı
+* Şu anki url "https://dev.testinium.com/members/dashboard.html" ile aynı mı
 
 Test-1-2: Companies sayfasından System Settings sayfasına geçiş
 --------------------------------------------
