@@ -2,7 +2,7 @@
 # Projects tabına tıkla ve Projects sayfasında olduğunu kontrol et
 * "projectsTab_Projects" elementinin görünür olması kontrol edilir
 * "projectsTab_Projects" elementine tıkla
-* Şu anki url "http://dev.testinium.com/members/projectList.html" ile aynı mı
+* Şu anki url "https://dev.testinium.com/members/projectList.html" ile aynı mı
 * "projectListTextNavBar_Projects" elementinin görünür olması kontrol edilir
 * "projectListTextNavBar_Projects" elementinin text değeri "Project List" değerine eşit mi
 * "projectListTextHeader_Projects" elementinin görünür olması kontrol edilir
@@ -255,7 +255,7 @@
 # Project Sync tabına tıkla
 * "projectSyncTab_Projects" elementinin görünür olması kontrol edilir
 * "projectSyncTab_Projects" elementine tıkla
-* Şu anki url "http://dev.testinium.com/members/project/projectSync.html" ile aynı mı
+* Şu anki url "https://dev.testinium.com/members/project/projectSync.html" ile aynı mı
 * "pageHeader_ProjectSync" elementinin görünür olması kontrol edilir
 * "pageHeader_ProjectSync" elementinin text değeri "Project Synchronization" değerini içeriyor mu
 
@@ -303,7 +303,7 @@
 
 # Project Sync sayfasında 2.adımdan Back tuşuna basıp 1.adıma geçiş yapılır
 * Project Sync tabına tıkla
-* Project Sync sayfasında "Enterprise_Otomasyon" isimli proje seçilerek Next tuşuna basılır ve 2.adıma geçilir
+* Project Sync sayfasında "Appium2projesi" isimli proje seçilerek Next tuşuna basılır ve 2.adıma geçilir
 * Project Sync sayfasında 2. adımın element kontrolleri yapılır
 * Project Sync sayfasındaki Back butonuna tıkla
 * "projectsPanel_ProjectSync" elementinin görünür olması kontrol edilir
@@ -321,7 +321,7 @@
 * "methodsToRemoveStep_ProjectSync" elementinin "class" niteliği "active" değerine eşit mi
 
 # Gerekli Seçimler yapılır ve 3.adıma geçilir sayfa kontrolü yapılır
-* Project Sync sayfasında "Enterprise_Otomasyon" isimli proje seçilerek Next tuşuna basılır ve 2.adıma geçilir
+* Project Sync sayfasında "Appium2projesi" isimli proje seçilerek Next tuşuna basılır ve 2.adıma geçilir
 * Project Sync sayfasında 2. adımın element kontrolleri yapılır
 * "checkAllCheckBox_ProjectSync_Step2" elementinin görünür olması kontrol edilir
 * "checkAllCheckBox_ProjectSync_Step2" elementine tıkla
@@ -349,7 +349,7 @@
 * "summaryStep_ProjectSync" elementinin "class" niteliği "active" değerine eşit mi
 
 # Gerekli Seçimler yapılır ve 4.adıma geçilir sayfa kontrolü yapılır
-* Project Sync sayfasında "Enterprise_Otomasyon" isimli proje seçilerek Next tuşuna basılır ve 2.adıma geçilir
+* Project Sync sayfasında "Appium2projesi" isimli proje seçilerek Next tuşuna basılır ve 2.adıma geçilir
 * Project Sync sayfasında 2. adımın element kontrolleri yapılır
 * "checkAllCheckBox_ProjectSync_Step2" elementinin görünür olması kontrol edilir
 * "checkAllCheckBox_ProjectSync_Step2" elementine tıkla
@@ -366,7 +366,7 @@
 
 # Create new project tabına tıkla ve sayfada olduğunu kontrol et
 * Create new project tabına tıkla
-* Şu anki url "http://dev.testinium.com/members/project/projectTypeSelection.html" ile aynı mı
+* Şu anki url "https://dev.testinium.com/members/project/projectTypeSelection.html" ile aynı mı
 
 # Gauge Frameworkü kullanarak bir appium projesi oluştur
 * "ProjectForm_AppiumProject" elementinin görünür olması kontrol edilir
