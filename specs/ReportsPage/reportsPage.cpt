@@ -1,6 +1,6 @@
 
 # Doğru bilgiler girilerek geçerli giriş yapılır
-* "testinium" ve "Qwe123+" bilgileriyle gecerli login yap
+* "testinium" ve "testinium" bilgileriyle gecerli login yap
 
 # Report tabına tıkla ve Test Execution sayfasında olduğunu kontrol et
 * Reports tabına tıklanılması
@@ -26,25 +26,29 @@
 * Şu anki url "https://dev.testinium.com/members/reports/testExecutionList.html" içeriyor mu
 
 # Project/Test Plan seçilmesi
-* "projectTestPlanButton" elementinin görünür olması kontrol edilir
-* "projectTestPlanButton" elementinin tıklanabilir olması kontrol edilir
-* "projectTestPlanButton" elementine tıkla
-* "projectSelect_Auto" elementine tıkla
-* "testPlanSelect_Auto" elementine tıkla
+* "ReportsProjectName" elementinin görünür olması kontrol edilir
+* "ReportsProjectName" elementine tıkla
+* "ReportsProjectNameName" elementinin görünür olması kontrol edilir
+* "ReportsProjectNameName" elementine tıkla
+* "ReportsTestPlanName" elementinin görünür olması kontrol edilir
+* "ReportsTestPlanName" elementine tıkla
+* "ReportsTestPlanNameName" elementinin görünür olması kontrol edilir
+* "ReportsTestPlanNameName" elementine tıkla
 
 # Test planının başlangıç gününü ve bitiş gününün belirlenmesi
 * "dateTitle" elementinin görünür olması kontrol edilir
 * "dateButton" elementinin tıklanabilir olması kontrol edilir
 * "dateButton" elementine tıkla
 * "beginDateButton" elementine tıkla
-* "testReports_beginDate" elementine tıkla
-* "dateTitle" elementine tıkla
-* "endDateButton" elementine js ile tıkla
-* "testReports_endDate" elementine js ile tıkla
+* "beginDateButton" elementine "01/07/2020 00:00" değerini yaz
+ "testReports_beginDate" elementine tıkla
+* "ReportsPageTitle" elementine tıkla
+* "endDateButton" elementine tıkla
+* "testReports_endDate" elementine tıkla
 
 # Test planı için criteria seçilmesi
-* "criteriaButton" elementinin görünür olması kontrol edilir
-* "criteriaButton" elementinin tıklanabilir olması kontrol edilir
+ "criteriaButton" elementinin görünür olması kontrol edilir
+ "criteriaButton" elementinin tıklanabilir olması kontrol edilir
 * "testReports_criteriaStatus" elementine tıkla
 
 # Seçilen Projenin detayına tıklanması
@@ -104,7 +108,10 @@
 * Şu anki url "https://dev.testinium.com/members/reports/performanceReports.html" ile aynı mı
 
 # Proje seçilme işleminin kontrolü
-* "DetailedReports_Project" elementine tıkla
+* "detailedReportsProjectName" elementinin görünür olması kontrol edilir
+* "detailedReportsProjectName" elementine tıkla
+* "detailedReportsProjectName" elementine "AppiumJava" değerini yaz
+"DetailedReports_Project" elementine tıkla
 
 # Seçilen projenin aramasının yapılması
 * "detailedReports_SearchButton" elementine tıkla
@@ -138,17 +145,19 @@
 # Date Range Basis Report sayfasının kontrolünün sağlanması
 * "InstantReports_DateRangeBasis" elementinin görünür olması kontrol edilir
 * "InstantReports_DateRangeBasis" elementine tıkla
-* "InstantReports_SelectProject" elementine tıkla
+* "3" saniye bekle
+* "InstantReports_SelectProject" elementine js ile tıkla
 
 # Start Date ve End Date belirlenmesi
 *  sayfayı yukarı kaydır
 * "InstantReports_StartDate" elementine tıkla
 * "InstantReports_BeforeDate" elementine tıkla
 * "InstantReports_Day" elementine tıkla
-* "InstantReports_statusClick" elementine tıkla
+ "InstantReports_statusClick" elementine tıkla
+ * "instantReportsTitle" elementine tıkla
 * "InstantReports_EndDate" elementine tıkla
 * "InstantReports_EndDateClick" elementine tıkla
-* "InstantReports_statusClick" elementine tıkla
+ "InstantReports_statusClick" elementine tıkla
 * sayfayı aşağı kaydır
 * "InstantReports_PrepareEnvironment" elementine tıkla
 
@@ -183,7 +192,9 @@
 * "GraphReport_Back" elementine tıkla
 * "GraphReport_StartDate" elementine tıkla
 * "GraphReport_InputEndDate" elementine tıkla
+* "3" saniye bekle
 * "GraphReport_EndDate" elementine tıkla
+* "graphReportsTitle" elementine tıkla
 
 # Projenin seçilip sağa aktarılması
 * "GraphReport_SelectProject" elementine tıkla
@@ -211,7 +222,8 @@
 
 # Yeni bir proje seçilmesi
 * "GraphReport_SelectProject" elementine tıkla
-* "GraphReport_SelectRight" elementine çift tıkla
+* "3" saniye bekle
+* "GraphReport_SelectRight" elementine tıkla
 
 # Draw butonuna basılması kontrolü
 * "ExecutionGraphs_DrawButton" elementine tıkla

@@ -88,6 +88,7 @@ Test-11: Test Execution Auto sayfasında seçilen projenin detayına bakılması
 Tags:Test ExecutionAutoSayfasındaSecilenProjeninDetayinaBakilması
 
 * Test Execution sayfasının kontrollerinin yapılması
+* Project/Test Plan seçilmesi
 * Test planının başlangıç gününü ve bitiş gününün belirlenmesi
 * Test planı için criteria seçilmesi
 * Search Tabına tıkla
@@ -99,7 +100,7 @@ Tags:TestExecutionAutoRemoteSayfasındaSecilenProjeninDetayinaBakilmasi
 
 * Report sayfasına gidilmesi
 * Text Executions (Remote) sayfasına tıkla
-* Test Results of Remote Executions browserın incelenmesi
+ Test Results of Remote Executions browserın incelenmesi
 
 Test-13: Test Execution remote sayfasında download report tabına tıklağında error mesajı vermesi
 --------------------------------------------
@@ -107,9 +108,9 @@ Tags:TestExecutionRemoteSayfasindaDownloadReportTabinaTiklagindaErrorMesajiVerme
 
 * Reports tabına tıklanılması
 * Text Executions (Remote) sayfasına tıkla
-* Test Results of Remote Executions browserın incelenmesi
-* Download Report tabına tıklanması
-* Error mesajının alınması
+ Test Results of Remote Executions browserın incelenmesi
+ Download Report tabına tıklanması
+ Error mesajının alınması
 
 Test-14: Test Execution Tag sayfasında seçilen etiketi göstermesi
 --------------------------------------------

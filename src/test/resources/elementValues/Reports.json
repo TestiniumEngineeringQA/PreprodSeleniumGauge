@@ -26,7 +26,7 @@
   },
   {
     "key": "dateTitle",
-    "value": "//div[@id='j_idt218_header']/span",
+    "value": "//*[@id=\"j_idt226\"]",
     "type": "xpath"
   },
   {
@@ -61,8 +61,8 @@
   },
   {
     "key": "endDateButton",
-    "value": "#dateEnd.ui-calendar.calendarFormControl.dateEnd.dateTime",
-    "type": "css"
+    "value": "//*[@id=\"dateEnd_input\"]",
+    "type": "xpath"
   },
   {
     "key": "boslukClick",
@@ -76,12 +76,12 @@
   },
   {
     "key": "testReports_beginDate",
-    "value": "//td[@class=' ui-datepicker-week-end ']/a[normalize-space(.)='1']",
+    "value": "//a[@class='ui-state-default' and @href='#' and text()='1']",
     "type": "xpath"
   },
   {
     "key": "testReports_endDate",
-    "value": "//td[@class='  ui-datepicker-current-day']/a",
+    "value": "//a[@class='ui-state-default' and @href='#' and text()='30']",
     "type": "xpath"
   },
   {
@@ -141,8 +141,8 @@
   },
   {
     "key": "TestExecutionTags_searchButton",
-    "value": "#j_idt223",
-    "type": "css"
+    "value": "tagId",
+    "type": "id"
   },
   {
     "key": "TextExecutionTags_TagButton",
@@ -151,12 +151,12 @@
   },
   {
     "key": "TextExecutionTags_TagButtonSelect",
-    "value": "//select[@id='tagId']//option[contains(text(),'regresyon')]",
+    "value": "//select[@id='tagId']//option[contains(text(),'TagDeneme')]",
     "type": "xpath"
   },
   {
     "key": "TextExecutionTags_clearButton",
-    "value": "//div[@class='form-group']/a[@id='j_idt226']",
+    "value": "//div[@class='form-group']/a[@id='j_idt230']",
     "type": "xpath"
   },
   {
@@ -176,7 +176,7 @@
   },
   {
     "key": "detailedReports_SearchButton",
-    "value": "#j_idt268",
+    "value": "#j_idt260",
     "type": "css"
   },
   {
@@ -201,7 +201,7 @@
   },
   {
     "key": "InstantReports_ProjectList",
-    "value": "//span[@class='ui-treenode-label ui-corner-all' and text()=' allianzmobileproject']",
+    "value": "//span[ text()='AppiumJava']",
     "type": "xpath"
   },
   {
@@ -211,7 +211,7 @@
   },
   {
     "key": "ınstantReports_ErrorMessage",
-    "value": "//span[@class='ui-messages-error-icon']/following-sibling::ul/li/span[@class='ui-messages-error-summary' and text()='Report Date field is required.'][1]",
+    "value": "//span[ text()='Report Date field is required.']",
     "type": "xpath"
   },
   {
@@ -226,17 +226,17 @@
   },
   {
     "key": "InstantReports_Day",
-    "value": "//td[@class=' ui-datepicker-week-end ']/a[@class='ui-state-default' and text()='3']",
+    "value": "//a[@class='ui-state-default' and @href='#' and text()='1']",
     "type": "xpath"
   },
   {
     "key": "InstantReports_PrepareEnvironment",
-    "value":"//button[@id='prepareEnvironmentReportButton']",
+    "value":"//button[@id='prepareDateRangeEnvironmentReportButton']",
     "type": "xpath"
   },
   {
     "key": "InstantReports_SelectProject",
-    "value":"//span[@class='ui-treenode-label ui-corner-all ui-state-highlight' and text()='deneme_01']",
+    "value":"//span[@class='ui-treenode-label ui-corner-all' and text()='AppiumJava']",
     "type": "xpath"
   },
   {
@@ -246,7 +246,7 @@
   },
   {
     "key": "InstantReports_DownloadPdf",
-    "value": "j_idt241",
+    "value": "j_idt245",
     "type": "id"
   },
   {
@@ -266,7 +266,7 @@
   },
   {
     "key": "InstantReports_EndDateClick",
-    "value": "//td[@class=' ui-datepicker-week-end ']/a[@class='ui-state-default' and text()='29']",
+    "value": "//a[@class='ui-state-default' and @href='#' and text()='30']",
     "type": "xpath"
   },
   {
@@ -276,7 +276,7 @@
   },
   {
     "key": "InstantReports_ErrorTitle",
-    "value": "//span[@class='ui-messages-error-icon']/following-sibling::ul/li/span[text()='The maximum date range you can select is 31 days!']",
+    "value": "//*[@id=\"j_idt252\"]/div/ul/li",
     "type": "xpath"
   },
   {
@@ -306,7 +306,7 @@
   },
   {
     "key": "ScheduledReport_SelectProject",
-    "value": "//span[@class='ui-treenode-label ui-corner-all' and text()='deneme_01']",
+    "value": "//span[@class='ui-treenode-label ui-corner-all' and text()='AppiumJava']",
     "type": "xpath"
   },
   {
@@ -346,18 +346,18 @@
   },
   {
     "key": "GraphReport_SelectProject",
-    "value": "//li[@class='ui-picklist-item ui-corner-all ui-sortable-handle']/table/tbody/tr/td[text()=' allianzmobileproject']",
+    "value": "//*[@id=\"companyCharts:projectPickList\"]/div[1]/ul/li[1]",
     "type": "xpath"
   },
   {
     "key": "GraphReport_SelectRight",
-    "value": "//div[@class='ui-picklist-buttons-cell']/button[@class='ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-picklist-button-add ui-state-disabled']",
+    "value": "//button[@title='Add']",
     "type": "xpath"
   },
   {
     "key": "GraphReport_DrawButton",
-    "value": "//button[@id='companyCharts:j_idt233']",
-    "type": "xpath"
+    "value": "companyCharts:j_idt237",
+    "type": "id"
   },
   {
     "key": "GraphReport_ErrorTitle",
@@ -376,7 +376,7 @@
   },
   {
     "key": "ExecutionGraphs_DrawButton",
-    "value": "//button[@id='companyCharts:j_idt231']",
+    "value": "//button[@id='companyCharts:j_idt235']",
     "type": "xpath"
   },
   {
@@ -419,9 +419,51 @@
     "key": "PassRateReports_Reports",
     "value": "//span[@class='menu-text' and text()=' Reports ']",
     "type": "xpath"
-
-
-
+  },
+  {
+    "key": "ReportsProjectName",
+    "value": "//*[@id=\"project\"]/button",
+    "type": "xpath"
+  },
+  {
+  "key": "ReportsProjectNameName",
+  "value": "//li[@data-item-label='AppiumJava']",
+  "type": "xpath"
+  },
+  {
+    "key": "ReportsTestPlanName",
+    "value": "//*[@id=\"plan\"]/button",
+    "type": "xpath"
+  },
+  {
+    "key": "ReportsTestPlanNameName",
+    "value": "//li[@data-item-label='Success']",
+    "type": "xpath"
+  },
+  {
+    "key": "ReportsPageTitle",
+    "value": "//*[@id=\"main-content\"]/div[2]/div[1]/h1",
+    "type": "xpath"
+  },
+  {
+    "key": "criteriaButton",
+    "value": "//*[@id=\"statusType\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "detailedReportsProjectName",
+    "value": "project_input",
+    "type": "id"
+  },
+  {
+    "key": "instantReportsTitle",
+    "value": "//*[@id=\"main-content\"]/div[2]/div[1]/h1",
+    "type": "xpath"
+  },
+  {
+    "key": "graphReportsTitle",
+    "value": "//*[@id=\"main-content\"]/div[2]/div[1]/h1",
+    "type": "xpath"
   }
   ]
 
