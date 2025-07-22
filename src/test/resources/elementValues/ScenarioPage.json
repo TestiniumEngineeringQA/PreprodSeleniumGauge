@@ -61,8 +61,8 @@
   },
   {
     "key": "projectName",
-    "value": "//label[@id='j_idt216']",
-    "type": "xpath"
+    "value": "project_input",
+    "type": "id"
   },
   {
     "key": "projectButton",

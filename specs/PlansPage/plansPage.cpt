@@ -53,6 +53,8 @@ This is a concept file with following syntax for each concept.
 * "selectedBrowsersChromeLatest_PlansPage" elementinin görünür olması kontrol edilir
 * "nextButton_PlansPage" elementinin görünür olması kontrol edilir
 * "nextButton_PlansPage" elementine tıkla
+* "nextButton_PlansPage" elementinin görünür olması kontrol edilir
+* "nextButton_PlansPage" elementine tıkla
 * "schedulePanel_PlansPage" elementinin görünür olması kontrol edilir
 * "nextButton_PlansPage" elementine tıkla
 * "notificationsPanel_PlansPage" elementinin görünür olması kontrol edilir
@@ -74,6 +76,8 @@ This is a concept file with following syntax for each concept.
 * "linuxLatestAdd_PlansPage" elementinin görünür olması kontrol edilir
 * "linuxLatestAdd_PlansPage" elementine tıkla
 * "selectedBrowsersChromeLatest_PlansPage" elementinin görünür olması kontrol edilir
+* "nextButton_PlansPage" elementinin görünür olması kontrol edilir
+* "nextButton_PlansPage" elementine tıkla
 * "nextButton_PlansPage" elementinin görünür olması kontrol edilir
 * "nextButton_PlansPage" elementine tıkla
 * "schedulePanel_PlansPage" elementinin görünür olması kontrol edilir

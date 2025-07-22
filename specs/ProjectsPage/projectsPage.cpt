@@ -344,7 +344,7 @@
 * "steps_ProjectSync" elementinin görünür olması kontrol edilir
 * "summaryTable_ProjectSync_Step4" elementinin görünür olması kontrol edilir
 * "cancelButton_ProjectSync" elementinin görünür olması kontrol edilir
-* "saveButton_ProjectSync" elementinin görünür olması kontrol edilir
+ "saveButton_ProjectSync" elementinin görünür olması kontrol edilir
 * "backButton_ProjectSync" elementinin görünür olması kontrol edilir
 * "summaryStep_ProjectSync" elementinin "class" niteliği "active" değerine eşit mi
 

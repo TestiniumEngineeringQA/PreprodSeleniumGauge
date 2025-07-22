@@ -64,7 +64,7 @@
 * "projectNameList" element listesinin "rasgeleSayıKeyValue" sıradaki elemanına tıkla
 
 # Copy Scenario Kontrollerinin sağlanması
-* "copyScenarioTop" elementine tıkla
+ "copyScenarioTop" elementine tıkla
 * "tergetProject" elementinin görünür olması kontrol edilir
 * "copyTestScenario_Save" elementinin tıklanabilir olması kontrol edilir
 * "copyTestScenario_Cancel" elementine tıkla

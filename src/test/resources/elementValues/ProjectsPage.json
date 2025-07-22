@@ -201,7 +201,7 @@
   },
   {
     "key": "projectTable_Projects",
-    "value": "//div[@id='projectList'][.//th[@aria-label='Project Name'] and .//th[@aria-label='Test Framework'] and .//th[@aria-label='Test File Type'] and .//th[@aria-label='Test Runner Tool'] and .//th[@aria-label='Enabled']]",
+    "value": "//*[@id=\"projectList_data\"]",
     "type": "xpath"
   },
   {
