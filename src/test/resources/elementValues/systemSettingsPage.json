@@ -396,13 +396,13 @@
   },
   {
     "key": "testEnvironments_CloudTestEnvironmentsGroups_AddNew",
-    "value": "//ul[@aria-label='Testinium Cloud Test Environments (202)']",
-    "type": "xpath"
+    "value": "defaultForm:cloudEnvPickList_source_filter",
+    "type": "id"
   },
   {
     "key": "selectedEnvironments_CloudTestEnvironmentsGroups_AddNew",
-    "value": "//ul[@aria-label='Selected Environments (0)']",
-    "type": "xpath"
+    "value": "defaultForm:cloudEnvPickList_target_filter",
+    "type": "id"
   },
   {
     "key": "testRunMethod_CloudTestEnvironmentsGroups_AddNew",
