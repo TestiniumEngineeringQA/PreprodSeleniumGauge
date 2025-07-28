@@ -156,7 +156,7 @@ Tags:InstantReportsSayfasınaGecisinKontrolu
 Test-19: Instant Report Sayfasında seçilen projeye tarih seçme kontrolü
 --------------------------------------------
 Tags:InstantReportSayfasındaSecilenProjeyeTarihSecmeKontrolu
-
+// Hatalı
 * Instant Reports sayfasına girilmesi
 * Proje seçildiğinde hata mesajı
 * Tarihin belirlenmesi
@@ -226,7 +226,7 @@ Tags:ExecutionGraphsSayfasinaGecisinKontrolu
 Test-27: Pass rate reports sayfasının kontrolü
 --------------------------------------------
 Tags:PassRateReportsSayfasininKontrolu
-
+// Hatalı
 * Pass Rate Reports sayfasına girilmesi
 * Scenario Basis Report sayfasının kontrolü
 

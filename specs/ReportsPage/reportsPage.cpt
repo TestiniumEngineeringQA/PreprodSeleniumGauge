@@ -139,7 +139,8 @@
 * "InstantReports_Day" elementine tıkla
 * sayfayı aşağı kaydır
 * sayfayı aşağı kaydır
-* "InstantReports_PrepareEnvironment" elementine tıkla
+* "1" saniye bekle
+* "InstantReports_PrepareEnvironment2" elementine tıkla
 * "InstantReports_DownloadPdf" elementine tıkla
 
 # Date Range Basis Report sayfasının kontrolünün sağlanması
@@ -222,7 +223,7 @@
 
 # Yeni bir proje seçilmesi
 * "GraphReport_SelectProject" elementine tıkla
-* "3" saniye bekle
+* "5" saniye bekle
 * "GraphReport_SelectRight" elementine tıkla
 
 # Draw butonuna basılması kontrolü
@@ -234,7 +235,8 @@
 
 # Scenario Basis Report sayfasının kontrolü
 * "PassRateReports_ProjectSelect" elementine tıkla
-* "PassRateReports_ProjectSelect2 " elementine tıkla
+* "PassRateReports_ProjectSelect" elementine "AppiumJava" değerini yaz
+* "PassRateReports_ProjectSelect2" elementine tıkla
 * "2" saniye bekle
 * "PassRateReports_TestScenarioProject" elementine tıkla
 * "PassRateReports_GetResults" elementine tıkla
