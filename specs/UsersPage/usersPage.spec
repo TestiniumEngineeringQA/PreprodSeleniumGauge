@@ -14,15 +14,15 @@ Test-2-Enes Turan Company'si seçilir ve Companyde hiçbir üye olmadığı doğ
 --------------------------------------------------------------------------------
 Tags: UyesiOlmayanCompanySecimiVeUyeOlmadigiDogrulanmasi
 
-* Company Name "Enes Turan" seçilir
+* Company Name "KARTAL" seçilir
 * There is not exist any user mesajı alınır
 
 Test-3-Furkan Kartal Company'si seçilir ve Üyelerin doğru listelendiği doğrulanır
 ---------------------------------------------------------------------------------
 Tags: UyesiOlanCompanySecimiVeDogruUyeListelendigiKontrolu
 
-* Company Name "Furkan Kartal" seçilir
-* "harun.aktas" Üyesinin Üye listesinde listelendiği doğrulanır
+* Company Name "Deneme" seçilir
+* "fkartal47" Üyesinin Üye listesinde listelendiği doğrulanır
 
 Test-4-Users sayfası içindeki Manage Roles sayfasının element kontrolleri yapılır
 ---------------------------------------------------------------------------------
@@ -162,7 +162,7 @@ Tags: GecersizMailleKullaniciOlusturmaVeHataKontrolu
 Test-20 Basarili bir sekilde kullanici olusturulmasi ve silinmesi kontrolu
 --------------------------------------------------------------------------
 Tags: BasariliBirsekildeKullaniciOlusturVeSil
-
+//Hatalı
 * Create new user tabına tıkla
 * Başarılı bir şekilde kullanıcı oluştur ve sil
 

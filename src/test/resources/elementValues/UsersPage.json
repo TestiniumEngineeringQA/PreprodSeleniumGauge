@@ -11,8 +11,13 @@
   },
   {
     "key": "companyNameList_UsersPage",
-    "value": "company",
+    "value": "companyAutoComplete_input",
     "type": "id"
+  },
+  {
+  "key": "companyNameList_UsersPage2",
+  "value": "//*[@id=\"companyAutoComplete_panel\"]/ul/li",
+  "type": "xpath"
   },
   {
     "key": "manageRolesTab_UsersPage",
@@ -211,8 +216,8 @@
   },
   {
     "key": "save_CreateNewUser_UsersPage",
-    "value": "a[id='defaultForm:saveButton']",
-    "type": "css"
+    "value": "defaultForm:saveButton",
+    "type": "id"
   },
   {
     "key": "cancel_CreateNewUser_UsersPage",

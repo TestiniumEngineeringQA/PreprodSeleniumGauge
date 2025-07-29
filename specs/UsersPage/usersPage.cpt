@@ -19,7 +19,11 @@ By Enes
 
 # Company Name <companyName> seçilir
 * "companyNameList_UsersPage" elementinin görünür olması kontrol edilir
-* "companyNameList_UsersPage" select element by text <companyName>
+* "companyNameList_UsersPage" elementine tıkla
+* "companyNameList_UsersPage" elementinin değerini temizle
+* "companyNameList_UsersPage" elementine <companyName> değerini yaz
+* "companyNameList_UsersPage2" elementine tıkla
+ "companyNameList_UsersPage" select element by text <companyName>
 
 # There is not exist any user mesajı alınır
 * "emptyUserMessage_UsersPage" elementinin görünür olması kontrol edilir
@@ -164,6 +168,7 @@ By Enes
 * "testUser" degerini "userNameKeyValue" keyinde tut
 * "email_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
 * "email_CreateNewUser_UsersPage" elementine "test@testinium.com" değerini yaz
+* "companyName_CreateNewUser_UsersPage" select element by value "11"
 * "save_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
 * "save_CreateNewUser_UsersPage" elementine tıkla
 * "info_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
