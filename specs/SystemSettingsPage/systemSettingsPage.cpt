@@ -21,7 +21,7 @@ This is a concept file with following syntax for each concept.
 * "saveButton_SystemSettings_LicenceInformation_UpdatePublicKey" elementinin görünür olması kontrol edilir
 * "cancelButton_SystemSettings_LicenceInformation_UpdatePublicKey" elementinin görünür olması kontrol edilir
 * "cancelButton_SystemSettings_LicenceInformation_UpdatePublicKey" elementine tıkla
-* Şu anki url "https://dev.testinium.com/members/admin/licencePropertyList.html" ile aynı mı
+ Şu anki url "https://dev.testinium.com/members/admin/licencePropertyList.html" ile aynı mı
 
 # Licence ınformation sayfasında Add New Licence butonuna basılır sayfa kontrolü yapılır
 * "addNewLicence_SystemSettings_LicenceInformation" elementinin görünür olması kontrol edilir
