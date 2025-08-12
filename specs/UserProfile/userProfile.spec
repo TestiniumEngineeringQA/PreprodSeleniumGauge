@@ -19,6 +19,7 @@ Tags: UserProfileSaveButonuKontrolu
 * User Profile sayfasındaki save butonuna tıkla
 * "Record has been successfully updated." mesajının göründüğünü doğrula
 * "3" saniye bekle
+// Mesaji Goremiyor
 
 User Profile sayfasında cancel butonuna tıklanır ve Dashboarda geri dönüldüğü doğrulanır
 ----------------------------------------------------------------------------------------

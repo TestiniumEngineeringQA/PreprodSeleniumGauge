@@ -14,6 +14,8 @@ This is a concept file with following syntax for each concept.
 # Licence Information sayfasında Update Public Key butonuna basılır sayfa kontrolü yapılır
 * "updatePublicKey_SystemSettings_LicenceInformation" elementinin görünür olması kontrol edilir
 * "updatePublicKey_SystemSettings_LicenceInformation" elementine tıkla
+* "https://dev.testinium.com/members/admin/licencePropertyPublicKeyForm.html" adresine git
+* "5" saniye bekle
 * Şu anki url "https://dev.testinium.com/members/admin/licencePropertyPublicKeyForm.html" ile aynı mı
 * "publicKeyText_SystemSettings_LicenceInformation_UpdatePublicKey" elementinin görünür olması kontrol edilir
 * "saveButton_SystemSettings_LicenceInformation_UpdatePublicKey" elementinin görünür olması kontrol edilir
