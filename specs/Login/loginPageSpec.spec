@@ -5,7 +5,7 @@ Test-2-1: Valid Login to dashboard
 ----------------------------------
 Tags: Validlogin
 
-* "testinium" ve "testinium" bilgileriyle gecerli login yap
+* "testinium1" ve "testinium" bilgileriyle gecerli login yap
 
 
 Test-2-2: Invalid Login --> empty username and empty password
