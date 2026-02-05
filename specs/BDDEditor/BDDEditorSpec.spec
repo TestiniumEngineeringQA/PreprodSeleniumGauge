@@ -211,6 +211,11 @@ Tags: OpenBDDEditorPage
 * Karakter hata mesajı olmaması kontrol edilir
 * SenaryoName hata mesajı kontrolu
 
+Test1-23-Skipped Test
+--------------------------------------
+Tags: SkippedTest
+* Skipped Test
+
 
 
 
